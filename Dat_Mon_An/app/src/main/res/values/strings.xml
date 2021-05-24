@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Đặt Món Ăn</string>
+    <string name="ts">TRÀ SỮA MẮC CA TRÂN CHÂU</string>
+    <string name="xemCT">Xem chi tiết</string>
+    <string name="tp1">Trân châu trắng</string>
+    <string name="tp2">Pudding trứng</string>
+    <string name="tp3">Trân châu đường đen</string>
+    <string name="tp4">Macchiato</string>
+    <string name="tp5">Ngọc trai</string>
+</resources>

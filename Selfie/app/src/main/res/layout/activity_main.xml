@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:backgroundTint="#009688"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnGallery"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#009688"
+        android:drawableLeft="@android:drawable/ic_menu_gallery"
+        android:text="Thư viện ảnh" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="366dp"
+        android:layout_height="454dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/noimage" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#938E8E"
+        android:drawableLeft="@android:drawable/ic_menu_camera" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#009688"
+        android:drawableLeft="@android:drawable/ic_menu_add"
+        android:text="Thêm vào thư viện" />
+
+
+</LinearLayout>

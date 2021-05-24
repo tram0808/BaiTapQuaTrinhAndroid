@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Selfie app</string>
+    <string name="channel_name">Chanel 1</string>
+    <string name="channel_description">This is Camera</string>
+</resources>

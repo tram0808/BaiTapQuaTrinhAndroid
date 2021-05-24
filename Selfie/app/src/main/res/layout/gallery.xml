@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/screen">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="100dp"
+            android:text="THƯ VIỆN ẢNH"
+            android:textColor="#7138C2"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnDel"
+            android:layout_width="10dp"
+            android:layout_height="3dp"
+            android:layout_marginLeft="60dp"
+            android:backgroundTint="#FFFFFF"
+            android:drawableLeft="?attr/selectableItemBackground"
+            android:textAllCaps="false"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textColorLink="#FFFFFF"
+            android:textSize="8sp"
+            app:iconTint="#FFFFFF" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/listView"
+        android:scrollingCache="false"/>
+
+</LinearLayout>
